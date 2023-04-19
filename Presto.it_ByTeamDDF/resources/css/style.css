@@ -1,0 +1,283 @@
+/* Assets Scoope Globale  */
+:root{
+    /* colori bg/nav/foot */
+    --zero: #ffff;
+    --primary: #e3faff;
+    --secondary: #a9fcff;
+    --terziary: #dd1c1a;
+
+    /* colori h/p */
+    --black: #000000;
+    --dark:  #343a40;
+    --secondarydark: #d3d3d3;
+} 
+
+body{
+    background-color: var(--primary);
+}
+
+/* Fonts */
+
+.textcolor{
+    color: var(--black);
+}
+
+h1,h2,h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h4,h5,h6{
+    font-family:'Montserrat', sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-custom{
+    font-weight: 900;
+    font-size: 125px;
+}
+
+.p-custom{
+    font-family: 'Lobster', cursive;
+}
+
+/* Inizio MastHead */
+.masthead{
+    background-repeat: no-repeat;
+    background-size:contain; 
+}
+.bg-custom{
+    background-color: #FFF8F0;
+    padding: 20px 50px 5px 0px;
+    color: #488794;
+}
+.btn-custom{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    padding: 50px;
+
+}
+
+.button-66 {
+    background: linear-gradient(to left, rgba(30,87,153,1) 0%,rgba(125, 186, 232, 1) 100%);
+    border-radius: 15px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 25px;
+    font-weight: 1200;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  }
+  
+  .button-66:hover {
+    background-color: #065dd8;
+    transform: translateY(-2px);
+  }
+
+
+/* Inizio NavBar */
+
+.navbar-custom{
+    background: linear-gradient(to left, rgba(30,87,153,1) 0%,rgba(125, 186, 232, 0.39) 100%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: rgb(0, 115, 255);
+}
+
+.custom-img{
+    height: 120px;
+    width: 200px;
+}
+
+.margin-custom{
+    margin-top: 150px;
+    margin-bottom: -5px;
+}
+
+.searchbar-custom{
+    width: 800px;   
+}
+
+.start-custom{
+    left: 100%;
+}
+
+.dropcust{
+    --bs-dropdown-min-width: 0rem;;
+}
+
+/* Sezione Dettaglio Articolo */
+
+
+
+
+/* Sez. Register */
+
+.card-img-left {
+    width: 50%;
+    background-image: url('../../public/media/Benvenuto.jpg');
+    background-size: cover;
+  }
+
+  .card-img-left2{
+    width: 50%;
+    background-image: url('../../public/media/PRESTO.IT_LOGIN.png');
+    background-size: cover;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .altezza-container{
+    height: 60vh;
+    width: 80wh;
+  }
+
+/* SEZIONE CARD */
+
+.btn-custom-display{
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    border: 2px solid var(--dark);
+}
+
+.bottonrnd{
+    background-color: rgb(0, 115, 255);
+}
+
+.sfondocustom{
+    background-color: var(--primary);
+}
+
+.btn-custom-category{
+    width: 80%; 
+}
+
+.card-footer{
+    background-color: var(--zero);
+    border: none;
+}
+  
+/* Sezione Annunci vuota */
+
+.vuotazione{
+    height: 500px;
+    align-items: center;
+}
+
+/* Sezione Creazione Annuci */
+.img-preview{
+    min-height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+/* Sezione revisore */
+
+.altezzarevis{
+    min-height: 60vh;
+}
+
+/* Sez Footer */
+
+.colfoot{
+    background: linear-gradient(to left, rgba(30,87,153,1) 0%,rgba(125, 186, 232, 0.39) 100%);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: rgb(0, 115, 255);
+}
+
+.img-footerr{
+    background-image: url('../../public/media/Footer.svg');
+    background-size: cover;
+    background: linear-gradient(to center, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+
+.oblo{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 115, 255);
+    padding: 10px;
+   
+}
+
+.iconacasa{
+    color:rgb(0, 115, 255);
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 600px){
+   .searchbar-custom{
+    width: 350px;
+   }
+   .navbar{
+    justify-content: center;
+    align-items: center;
+   }
+
+   .masthead{
+    background-size: cover;
+    overflow-x: hidden;
+    height: 65vh;
+   }
+
+   .imgbg-custom{
+    width: 100%;
+   }
+
+   .btn-custom{
+    left: 35%;
+    padding: 20px;
+    
+   }
+   .button-66 {
+    right: 80%;
+    top: 70%;
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+
+  .btnAnnuncio{
+    position: absolute;
+    right: 33px;
+    top: 480px;
+  }
+
+  .img-preview{
+    width: 100%;
+  }
+
+  .start-custom{
+    left: 60%;
+}
+.imgbg-custom{
+    scale: 1.2;
+}
+}
+
+
+
